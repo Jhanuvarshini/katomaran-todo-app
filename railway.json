@@ -1,0 +1,18 @@
+{
+  "build": {
+    "frontend": {
+      "root": "frontend",
+      "buildCommand": "npm install && npm run build",
+      "outputDirectory": "dist"
+    },
+    "backend": {
+      "root": "backend",
+      "buildCommand": "npm install"
+    }
+  },
+  "deploy": {
+    "backend": {
+      "startCommand": "node index.js"
+    }
+  }
+}
