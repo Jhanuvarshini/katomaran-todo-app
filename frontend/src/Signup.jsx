@@ -728,10 +728,11 @@
 //       </div>
 //     </div>
 //   );
-// }
-import { useState } from 'react';
+// // }import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import loginGif from './assets/login-animation.gif'; // Ensure this exists in your assets
+import loginGif from './assets/login-animation.gif';
+
+const API_BASE = import.meta.env.VITE_API_BASE_URL;
 
 export default function Signup({ onSignup }) {
   const [form, setForm] = useState({ username: '', email: '', password: '' });
@@ -745,7 +746,7 @@ export default function Signup({ onSignup }) {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await fetch('http://localhost:5000/api/auth/signup', {
+      const res = await fetch(`${API_BASE}/api/auth/signup`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(form),
@@ -846,4 +847,3 @@ export default function Signup({ onSignup }) {
     </div>
   );
 }
-
