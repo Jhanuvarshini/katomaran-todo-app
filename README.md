@@ -1,10 +1,7 @@
 
-# katomaran-todo-app
-A Fullstack Todo Task Management Web Application for Katomaran Hackathon
+# Katomaran Todo App
 
-# Katomaran Todo Task Manager
-
-This is a Fullstack Todo Task Management Web Application built for the Katomaran Fullstack Hackathon.
+A Fullstack Todo Task Management Web Application built as part of the Katomaran Hackathon.
 
 ---
 
@@ -28,7 +25,9 @@ This is a Fullstack Todo Task Management Web Application built for the Katomaran
 - **Authentication**: Google OAuth 2.0, JWT
 - **Database**: MongoDB Atlas (Cloud Hosted)
 - **Real-time**: WebSocket (Socket.io)
-- **Deployment**: Vercel (Frontend), Railway or Render (Backend)
+- **Deployment**: 
+  - Frontend: [Vercel](https://katomaran-todo-app-alpha.vercel.app)
+  - Backend: [Render](https://katomaran-todo-app-3.onrender.com)
 
 ---
 
@@ -63,20 +62,62 @@ npm run dev
 ```bash
 cd frontend
 npm install
-npm start
+npm run dev
 ```
 
 ---
 
-## 📷 Architecture Diagram
+## 🧩 Architecture Diagram
 
-> (This section will include the image or diagram once created.)
+Here’s a clear overview of the app structure:
+
+![Architecture Diagram](./screenshots/todo%20architecture.png)
+
+---
+
+## 🖼️ Screenshots
+
+### 🔐 Login Page
+
+![Login Screenshot](./screenshots/login.png)
+
+---
+
+### 📝 Signup Page
+
+![Signup Screenshot](./screenshots/signup.png)
+
+---
+
+### 🌐 Social Login
+
+![Google OAuth Login](./screenshots/social%20login.png)
+
+---
+
+### ✅ Dashboard
+
+![Task Dashboard](./screenshots/dashboard.png)
+
+---
+
+### 🚀 Frontend Deployment Status
+
+![Frontend Deployed](./screenshots/frontend%20deployment.png)
+
+---
+
+### ⚙️ Backend Deployment Status
+
+![Backend Deployed](./screenshots/backend%20deployment.png)
 
 ---
 
 ## 📹 Loom Video Demo
 
-> (Link to be added once the demo video is recorded.)
+🎥 [**Click to Watch Demo Video on Loom**](https://www.loom.com/share/768ad9ba7eb74c50b552c68bfe6d3862)
+
+![Loom Video Preview](https://cdn.loom.com/sessions/thumbnails/768ad9ba7eb74c50b552c68bfe6d3862-with-play.gif)
 
 ---
 
@@ -84,14 +125,8 @@ npm start
 
 * Only Google login is implemented for simplicity.
 * Task sharing assumes the recipient already exists in the system.
-* All UI is tested on modern browsers only.
-* Basic error handling is used for quick MVP delivery.
-
----
-
-## 📬 Contact
-
-> Created as part of Katomaran Hackathon. For queries, raise a GitHub issue or contact via profile.
+* UI is tested on modern browsers.
+* Basic error handling is used to meet hackathon deadlines.
 
 ---
 
@@ -99,5 +134,5 @@ npm start
 
 This project is a part of a hackathon run by [https://www.katomaran.com](https://www.katomaran.com)
 
-
+```
 
