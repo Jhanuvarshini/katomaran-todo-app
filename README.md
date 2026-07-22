@@ -1,5 +1,5 @@
 
-# Katomaran Todo App
+# Todo App
 
 A Fullstack Todo Task Management Web Application built as part of the Katomaran Hackathon.
 
@@ -130,9 +130,5 @@ Here’s a clear overview of the app structure:
 
 ---
 
-## ✅ Submission Requirement
 
-This project is a part of a hackathon run by [https://www.katomaran.com](https://www.katomaran.com)
-
-```
 
